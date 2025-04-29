@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eşya Aktarımı - Hyperblox</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1e1e1e;
+            color: #f1f1f1;
+        }
+
+        header {
+            background-color: #2b2b2b;
+            padding: 15px 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        header img {
+            height: 60px;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 16px;
+            padding: 10px 15px;
+            border-radius: 6px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #007bff;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 30px;
+            background-color: #292929;
+            border-radius: 10px;
+            box-shadow: 0 0 12px rgba(0,0,0,0.3);
+            text-align: center;
+        }
+
+        .container img {
+            max-width: 200px;
+            margin-bottom: 30px;
+        }
+
+        .container h2 {
+            margin-bottom: 20px;
+            color: #00b7ff;
+        }
+
+        .instructions {
+            text-align: left;
+            margin: 0 auto;
+            display: inline-block;
+        }
+
+        .instructions li {
+            padding: 10px;
+            margin-bottom: 5px;
+            background-color: #1a1a1a;
+            border-left: 4px solid #007bff;
+            border-radius: 6px;
+            list-style: none;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                align-items: flex-end;
+            }
+
+            .container {
+                margin: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="logo.png" alt="Hyperblox Logo">
+        <nav>
+            <a href="index.html">Ana Sayfa</a>
+            <a href="aktarim.html">Eşya Aktarımı</a>
+            <a href="download.html">İndirmeler</a>
+            <a href="links.html">Linkler</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <img src="logo.png" alt="Hyperblox Logo">
+        <h2>Roblox'dan Eşya Aktarımı Nasıl Yapılır?</h2>
+        <p>Aşağıdaki adımları takip ederek eşyaları kolayca aktarabilirsiniz:</p>
+        <ul class="instructions">
+            <li>1. Roblox websitesine giriş yapın.</li>
+            <li>2. Kataloğa girin.</li>
+            <li>3. Aktarmak istediğiniz eşyayı seçin (sadece R6 için çalışanlar).</li>
+            <li>4. URL'deki ID numarasını kopyalayın.</li>
+            <li>5. HyperBlox'a giriş yapın, Avatar menüsüne gelin.</li>
+            <li>6. ID'yi "Aktar" kısmına yapıştırın ve tuşa basın.</li>
+            <li>7. İşlem tamam!</li>
+        </ul>
+    </div>
+
+</body>
+</html>
